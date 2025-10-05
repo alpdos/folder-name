@@ -8,20 +8,30 @@
     body {
       background-color: #f0f8ff;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       height: 100vh;
       margin: 0;
       font-family: Arial, sans-serif;
+      text-align: center;
     }
     h1 {
       color: #333;
-      font-size: 3em;
-      text-align: center;
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+    img {
+      width: 80%;
+      max-width: 300px; /* limits size on big screens */
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
   </style>
 </head>
 <body>
   <h1>Hello, World!</h1>
+  <img src="your-image.jpg" alt="Welcome Image">
 </body>
 </html>
